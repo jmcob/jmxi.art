@@ -1,7 +1,7 @@
-# oc
-These are my first projects as becoming a web developer.
-Please be kind !
-You'll find my CV and some school projects, nearly everything i did from the beginning of my short career !
+# JMxi
+
+these are my non-work project.
+You can still find my worl projects a my /oc repository.
 
 Thanks for giving me some advice !
 
