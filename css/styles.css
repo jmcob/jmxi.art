@@ -2,6 +2,10 @@ html {
   min-height: 100%;
   position: relative;
 }
+/* .wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+} */
 
 #top {
   color: black;
@@ -23,7 +27,7 @@ html {
 }
 /* body background */
 body {
-  background-image: linear-gradient(white, cornsilk);
+  background-image: linear-gradient(to right, cornsilk, white);
 }
 
 /* header */
@@ -35,7 +39,7 @@ header {
   margin: 20px 0 0 20px;
 }
 
-/*container for section boxes */
+/*container for article boxes */
 #main {
   margin-left: 20px;
   display: flex;
@@ -44,14 +48,7 @@ header {
 }
 
 /*boxes*/
-.section-1,
-.section-2,
-.section-3,
-.section-4,
-.section-5,
-.section-6,
-.section-7,
-.section-8 {
+article {
   width: 270px;
   padding: 20px;
   padding-bottom: 0px;
@@ -61,45 +58,9 @@ header {
   border: 12px solid gold;
   border-radius: 12px;
 }
-.section-1 {
-  border: 12px solid hsl(82, 83%, 43%);
-}
 
-.section-6 {
-  width: 580px;
-}
-
-.section-1:hover,
-.section-2:hover,
-.section-3:hover,
-.section-4:hover,
-.section-5:hover,
-.section-6:hover,
-.section-7:hover,
-.section-8:hover {
+article:hover {
   box-shadow: 12px -12px #0028ff;
-}
-
-ul {
-  padding: 0.5em;
-}
-/* profile pic*/
-img {
-  width: 100%;
-  min-width: 140px;
-  max-width: 200px;
-  border-radius: 20px;
-  border: 2px solid black;
-}
-
-#pic {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-#pic img {
-  max-width: 150px;
 }
 
 /*titles*/
@@ -130,24 +91,6 @@ h2 {
   font-size: 1.6rem;
   margin-left: 10px;
   text-align: center;
-}
-
-h3 {
-  margin-left: 0%;
-  margin-top: 0%;
-  margin-right: 0%;
-  margin-bottom: 10px;
-  padding-right: 0px;
-  font-weight: bolder;
-  font-size: larger;
-  background-color: transparent;
-  color: #0028ff;
-}
-h4 {
-  color: black;
-  margin-left: 10px;
-  margin-top: 8px;
-  margin-bottom: 8px;
 }
 
 p {
