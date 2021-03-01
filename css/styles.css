@@ -1,6 +1,13 @@
+/*Basic selectors */
 html {
   min-height: 100%;
   position: relative;
+}
+
+* {
+  color: var(--text-color);
+  font-size: 1rem;
+  font-family: Helvetica, Arial, sans-serif;
 }
 /* .wrapper {
   max-width: 1280px;
@@ -19,10 +26,19 @@ html {
   --linear-bg-1: cornsilk;
   --linear-bg-2: white;
 }
+/*HEADER*/
 
 #top {
-  color: black;
+  color: var(--text-color);
   font-weight: 900;
+}
+
+#header {
+  margin-left: 20px;
+  height: fit-content;
+}
+header {
+  margin: 20px 0 0 20px;
 }
 /* peinture a gauche */
 #paint {
@@ -47,15 +63,6 @@ body {
   );
 }
 
-/* header */
-#header {
-  margin-left: 20px;
-  height: fit-content;
-}
-header {
-  margin: 20px 0 0 20px;
-}
-
 /*container for article boxes */
 #main {
   margin-left: 20px;
@@ -78,9 +85,10 @@ article {
 
 article:hover {
   box-shadow: 12px -12px var(--box-shadow-color);
+  transform: scale(1.1);
 }
 
-/*titles*/
+/*titles and fonts*/
 h1 {
   color: black;
   width: 270px;
@@ -110,6 +118,11 @@ h2 {
   text-align: center;
 }
 
+h2:hover {
+  color: white;
+  background-color: var(--h2-color);
+}
+
 p {
   text-indent: 21px;
 }
@@ -120,16 +133,6 @@ em {
   color: white;
 }
 
-body {
-  margin: 0%;
-  height: 100%;
-}
-
-* {
-  color: var(--text-color);
-  font-size: 1rem;
-  font-family: Helvetica, Arial, sans-serif;
-}
 a {
   color: var(--links-color);
   font-weight: bolder;
@@ -166,7 +169,8 @@ ol li {
   list-style-position: inside;
 }
 
-/* ceci concerne Jonas*/
+/*JONAS*/
+/* ceci concerne JONAS*/
 .chapter {
   font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
