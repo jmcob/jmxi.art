@@ -7,6 +7,19 @@ html {
   margin: 0 auto;
 } */
 
+/*color variables*/
+:root {
+  --text-color: black;
+  --border-color: gold;
+  --box-shadow-color: #0028ff;
+  --links-color: #0028ff;
+  --h2-color: hsl(82, 83%, 43%);
+  --h1-shadow-color: #e30b5d;
+  --links-hover-color: #ffb742;
+  --linear-bg-1: cornsilk;
+  --linear-bg-2: white;
+}
+
 #top {
   color: black;
   font-weight: 900;
@@ -27,7 +40,11 @@ html {
 }
 /* body background */
 body {
-  background-image: linear-gradient(to right, cornsilk, white);
+  background-image: linear-gradient(
+    to right,
+    var(--linear-bg-1),
+    var(--linear-bg-2)
+  );
 }
 
 /* header */
@@ -55,12 +72,12 @@ article {
   margin: 20px;
   box-sizing: border-box;
   height: fit-content;
-  border: 12px solid gold;
+  border: 12px solid var(--border-color);
   border-radius: 12px;
 }
 
 article:hover {
-  box-shadow: 12px -12px #0028ff;
+  box-shadow: 12px -12px var(--box-shadow-color);
 }
 
 /*titles*/
@@ -83,11 +100,11 @@ h1 a {
 }
 
 h1:hover {
-  box-shadow: inset 12px -12px #e30b5d;
+  box-shadow: inset 12px -12px var(--h1-shadow-color);
 }
 
 h2 {
-  color: hsl(82, 83%, 43%);
+  color: var(--h2-color);
   font-size: 1.6rem;
   margin-left: 10px;
   text-align: center;
@@ -99,7 +116,7 @@ p {
 
 em {
   font-style: italic;
-  background-color: hsl(82, 83%, 43%);
+  background-color: var(--h2-color);
   color: white;
 }
 
@@ -109,29 +126,28 @@ body {
 }
 
 * {
-  color: black;
+  color: var(--text-color);
   font-size: 1rem;
   font-family: Helvetica, Arial, sans-serif;
 }
 a {
-  color: #0028ff;
+  color: var(--links-color);
   font-weight: bolder;
 }
 
 a:hover {
-  background-color: #ffb742;
+  background-color: var(--links-hover-color);
 }
 
 a:active {
   color: white;
-  background-color: #0028ff;
+  background-color: var(--links-color);
 }
 /*footer*/
 footer {
   padding: auto;
   box-sizing: border-box;
   margin: 0px;
-  color: white;
   text-align: left;
   padding-left: 110px;
 }
@@ -156,7 +172,7 @@ ol li {
   text-align: justify;
   padding: 2vw 4vw;
   box-sizing: border-box;
-  border: 2px solid gold;
+  border: 2px solid var(--border-color);
   margin: 2vw;
 }
 
@@ -167,7 +183,7 @@ ol li {
 }
 
 .jonash2 {
-  color: black;
+  color: var(--text-color);
   font-family: cursive;
   font-size: larger;
   font-weight: bold;
