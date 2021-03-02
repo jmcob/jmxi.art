@@ -85,7 +85,7 @@ article {
 
 article:hover {
   box-shadow: 12px -12px var(--box-shadow-color);
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 /*titles and fonts*/
