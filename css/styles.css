@@ -9,11 +9,10 @@ html {
   font-size: 1rem;
   font-family: Helvetica, Arial, sans-serif;
 }
-/* .wrapper {
-  max-width: 1280px;
+#wrapper {
+  max-width: 1024px;
   margin: 0 auto;
-} */
-
+}
 /*color variables*/
 :root {
   --text-color: black;
@@ -23,7 +22,7 @@ html {
   --h2-color: hsl(82, 83%, 43%);
   --h1-shadow-color: #e30b5d;
   --links-hover-color: #ffb742;
-  --linear-bg-1: cornsilk;
+  --linear-bg-1: rgb(250, 255, 250);
   --linear-bg-2: white;
 }
 /*HEADER*/
