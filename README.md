@@ -1,7 +1,7 @@
-# JMxi
+# JMxi.art
 
-these are my non-work project.
-You can still find my work projects a my /jmaxcob repository.
+these are my non-work project and my homepage as a human being !
+You can still find my work projects at my /dev repository.
 
 Thanks for giving me some advice !
 
