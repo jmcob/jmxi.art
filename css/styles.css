@@ -73,12 +73,12 @@ body {
 
 /*boxes*/
 article {
-  width: 270px;
   padding: 20px;
   padding-bottom: 0px;
   margin: 20px;
   box-sizing: border-box;
   height: fit-content;
+  height: -moz-fit-content;
   border: 12px solid var(--border-color);
   border-radius: 12px;
 }
