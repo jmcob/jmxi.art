@@ -1,17 +1,19 @@
+
+// Bavardage avant de parler vraiment
 html {
-  min-height: 100%;
-  position: relative;
+ min-height: 100%;
+ position: relative;
 }
 
 * {
-  color: var(--text-color);
-  font-size: 1rem;
-  font-family: Arial, Helvetica, sans-serif;
+ color: var(--text-color);
+ font-size: 1rem;
+ font-family: Arial, Helvetica, sans-serif;
 }
 
 #wrapper {
-  max-width: 1024px;
-  margin: 0 auto;
+ max-width: 1024px;
+ margin: 0 auto;
 }
 
 /*color variables*/
@@ -28,20 +30,20 @@ html {
 }
 
 .header {
-  margin: 20px 0 0 20px;
-  margin-left: 20px;
-  height: fit-content;
-}
-.header__title {
+ margin: 20px 0 0 20px;
+ margin-left: 20px;
+ height: fit-content;
+ &__title {
   color: var(--text-color);
   font-weight: 900;
+  &__sup{
+   color: gold; 
+   font-size: 25px; 
+   font-family: monospace
+  }
+ }
 }
-.header__title__sup {
-  color: gold;
-  font-size: 25px;
-  font-family: monospace;
-}
-
+// Peinture à gauche
 #paint {
   width: 20px;
   background-image: url("../images/painting.jpg");
@@ -55,16 +57,19 @@ html {
   overflow: hidden;
   z-index: 1;
 }
-
+// Body Background
 body {
-  background-image: linear-gradient(to right, var(--linear-bg-1), var(--linear-bg-2));
+  background-image: linear-gradient(
+    to right,
+    var(--linear-bg-1),
+    var(--linear-bg-2)
+  );
 }
 
+// container for article boxes
 #main {
   margin-left: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-
-/*# sourceMappingURL=styles.css.map */

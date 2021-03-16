@@ -1,0 +1,206 @@
+/*Basic selectors */
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+* {
+  color: var(--text-color);
+  font-size: 1rem;
+  font-family: Helvetica, Arial, sans-serif;
+}
+#wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+/*color variables*/
+:root {
+  --text-color: black;
+  --border-color: gold;
+  --box-shadow-color: #0028ff;
+  --links-color: #0028ff;
+  --h2-color: hsl(82, 83%, 43%);
+  --h1-shadow-color: #e30b5d;
+  --links-hover-color: #ffb742;
+  --linear-bg-1: rgb(250, 255, 250);
+  --linear-bg-2: white;
+}
+/*HEADER*/
+
+#top {
+  color: var(--text-color);
+  font-weight: 900;
+}
+
+#header {
+  margin-left: 20px;
+  height: fit-content;
+}
+header {
+  margin: 20px 0 0 20px;
+}
+/* peinture a gauche */
+#paint {
+  width: 20px;
+  background-image: url("../images/painting.jpg");
+  height: 100%;
+  background-repeat: repeat-y;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: 1;
+}
+/* body background */
+body {
+  background-image: linear-gradient(
+    to right,
+    var(--linear-bg-1),
+    var(--linear-bg-2)
+  );
+}
+
+/*container for article boxes */
+#main {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*boxes*/
+article {
+  padding: 20px;
+  padding-bottom: 0px;
+  margin: 20px;
+  box-sizing: border-box;
+  height: fit-content;
+  height: -moz-fit-content;
+  border: 12px solid var(--border-color);
+  border-radius: 12px;
+}
+
+article:hover {
+  box-shadow: 12px -12px var(--box-shadow-color);
+  transform: scale(1.05);
+}
+
+/*titles and fonts*/
+h1 {
+  color: black;
+  width: 270px;
+  font-size: 25px;
+  font-family: monospace;
+  margin: 0px 20px 20px 0px;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+}
+
+h1 a {
+  text-decoration: none;
+  font-family: monospace;
+  color: black;
+  font-size: 25px;
+}
+
+h1:hover {
+  box-shadow: inset 12px -12px var(--h1-shadow-color);
+}
+
+h2 {
+  color: var(--h2-color);
+  font-size: 1.6rem;
+  margin-left: 10px;
+  text-align: center;
+}
+
+h2:hover {
+  color: white;
+  background-color: var(--h2-color);
+}
+
+p {
+  text-indent: 21px;
+}
+
+em {
+  font-style: italic;
+  background-color: var(--h2-color);
+  color: white;
+}
+
+a {
+  color: var(--links-color);
+  font-weight: bolder;
+}
+
+a:hover {
+  background-color: var(--links-hover-color);
+}
+
+a:active {
+  color: white;
+  background-color: var(--links-color);
+}
+/*footer*/
+footer {
+  padding: auto;
+  box-sizing: border-box;
+  margin: 0px;
+  text-align: left;
+  padding-left: 110px;
+}
+
+footer p {
+  font-size: smaller;
+}
+
+footer a {
+  font-size: medium;
+}
+
+/* listes ordonnées des boites jaunes homepage*/
+ol li {
+  line-height: 1.5rem;
+  list-style-position: inside;
+}
+
+/*JONAS*/
+/* ceci concerne JONAS*/
+.chapter {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  padding: 2vw 4vw;
+  box-sizing: border-box;
+  border: 2px solid var(--border-color);
+  margin: 2vw;
+}
+
+.flexchapters {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.jonash2 {
+  color: var(--text-color);
+  font-family: cursive;
+  font-size: larger;
+  font-weight: bold;
+}
+#section-jonas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p #img-caption {
+  display: inline-block;
+}
+
+.flexchapters {
+  display: flex;
+  flex-direction: column;
+}
