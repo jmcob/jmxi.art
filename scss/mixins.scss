@@ -1,0 +1,8 @@
+// mixin pour les propriétés des boxs
+
+@mixin boxppty {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: white;
+}
