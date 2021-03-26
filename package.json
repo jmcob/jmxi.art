@@ -1,0 +1,21 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "description": "these are my non-work project and my homepage as a human being ! You can still find my work projects at <https://github.com/jmcob/dev>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch scss/style.scss:css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmcob/jmxi.art.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmcob/jmxi.art/issues"
+  },
+  "homepage": "https://github.com/jmcob/jmxi.art#readme"
+}
