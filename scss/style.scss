@@ -6,13 +6,19 @@ body {
   background-color: $bg;
 }
 a:hover {
-  transform: scale(1.45);
+  transform: scale(1.15);
   color: $acolor;
 }
 header {
   border: 4px solid $headerborder;
   @include boxppty;
+  background-color: midnightblue;
+  color: white;
   box-shadow: 4px 4px $headershadow;
+  & a {
+    text-decoration: none;
+    color: mistyrose;
+  }
 }
 main {
   display: flex;
