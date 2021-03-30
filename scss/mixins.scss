@@ -1,8 +1,10 @@
 // mixin pour les propriétés des boxs
 
-@mixin boxppty {
+@mixin boxppty($bordercolor, $shadowcolor) {
   margin: 1rem;
   padding: 1rem;
   border-radius: 10px;
   background-color: white;
+  border: 4px solid $bordercolor;
+  box-shadow: 4px 4px $shadowcolor;
 }
