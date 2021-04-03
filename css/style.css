@@ -1,3 +1,10 @@
+.quote {
+  border-left: 4px solid midnightblue;
+  padding-left: 1rem;
+}
+.quote:hover {
+  border-left: 4px solid crimson;
+}
 .quote q {
   font-style: italic;
 }
