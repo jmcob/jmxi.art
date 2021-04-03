@@ -38,6 +38,9 @@ header a {
   text-decoration: none;
   color: mistyrose;
 }
+header a:visited {
+  color: mistyrose;
+}
 
 main {
   display: flex;

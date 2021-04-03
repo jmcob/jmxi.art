@@ -23,6 +23,9 @@ header {
   & a {
     text-decoration: none;
     color: $urlcolor;
+    &:visited {
+      color: $urlcolor;
+    }
   }
 }
 main {
