@@ -33,9 +33,9 @@ header {
   font-style: italic;
   font-size: larger;
   margin: 1rem auto;
-  width: 50vw;
+  width: 75vw;
   color: $headerbg;
-  text-shadow: goldenrod 1px 0 10px;
+  text-shadow: $articleshadow 1px 0 10px;
 }
 main {
   display: flex;
