@@ -1,32 +1,85 @@
+.quote {
+  border-left: 4px solid midnightblue;
+  padding-left: 1rem;
+}
+
+.quote:hover {
+  border-left: 4px solid white;
+}
+
+.quote q {
+  font-style: italic;
+}
+
+.quote__p {
+  text-align: end;
+}
+
 * {
   font-family: avenir;
 }
 
 body {
-  background-color: cornsilk;
+  background-color: #fefbf1;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
 }
 
 a:hover {
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
   color: cornflowerblue;
 }
 
+a:visited {
+  color: midnightblue;
+}
+
 header {
-  border: 4px solid crimson;
   margin: 1rem;
   padding: 1rem;
   border-radius: 10px;
   background-color: white;
+  border: 4px solid white;
+  -webkit-box-shadow: 4px 4px darkseagreen;
+          box-shadow: 4px 4px darkseagreen;
   background-color: midnightblue;
   color: white;
-  -webkit-box-shadow: 4px 4px purple;
-          box-shadow: 4px 4px purple;
 }
 
 header a {
   text-decoration: none;
   color: mistyrose;
+}
+
+header a:hover {
+  color: indianred;
+}
+
+header a:visited {
+  color: mistyrose;
+}
+
+.subheader {
+  text-align: center;
+  font-style: italic;
+  font-size: larger;
+  margin: 1rem auto;
+  width: 75vw;
+  max-width: 800px;
+  color: midnightblue;
+  text-shadow: goldenrod 1px 0 10px;
+}
+
+.subheader:hover {
+  text-shadow: #ffcc00 3px 0 10px;
 }
 
 main {
@@ -41,17 +94,35 @@ main {
       flex-wrap: wrap;
 }
 
+main :nth-child(3) {
+  background-color: mistyrose;
+}
+
+main :nth-child(3):hover {
+  background-color: indianred;
+  color: white;
+}
+
+main :nth-child(5) {
+  background-color: mistyrose;
+}
+
+main :nth-child(5):hover {
+  background-color: indianred;
+  color: white;
+}
+
 article {
-  border: 4px solid cornflowerblue;
-  -webkit-box-flex: 35%;
-      -ms-flex: 35%;
-          flex: 35%;
   margin: 1rem;
   padding: 1rem;
   border-radius: 10px;
   background-color: white;
+  border: 4px solid cornflowerblue;
   -webkit-box-shadow: 4px 4px goldenrod;
           box-shadow: 4px 4px goldenrod;
+  -webkit-box-flex: 26%;
+      -ms-flex: 26%;
+          flex: 26%;
   height: -webkit-fill-available;
   height: -moz-available;
   height: fill;
@@ -60,9 +131,20 @@ article {
 }
 
 article:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  background-color: cornsilk;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  background-color: #fefbf1;
+}
+
+@media (max-width: 540px) {
+  main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
 }
 
 h2 {
@@ -79,11 +161,11 @@ h2 {
 }
 
 footer {
-  border: 4px solid darkgreen;
   margin: 1rem;
   padding: 1rem;
   border-radius: 10px;
   background-color: white;
+  border: 4px solid darkgreen;
   -webkit-box-shadow: 4px 4px darkseagreen;
           box-shadow: 4px 4px darkseagreen;
 }
