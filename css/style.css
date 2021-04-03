@@ -3,7 +3,7 @@
   padding-left: 1rem;
 }
 .quote:hover {
-  border-left: 4px solid crimson;
+  border-left: 4px solid white;
 }
 .quote q {
   font-style: italic;
@@ -36,8 +36,8 @@ header {
   padding: 1rem;
   border-radius: 10px;
   background-color: white;
-  border: 4px solid crimson;
-  box-shadow: 4px 4px purple;
+  border: 4px solid white;
+  box-shadow: 4px 4px crimson;
   background-color: midnightblue;
   color: white;
 }
