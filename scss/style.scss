@@ -1,6 +1,7 @@
 @import "mixins", "variables", "verses";
 * {
   font-family: avenir;
+  color: $fontcolor;
 }
 body {
   background-color: $bg;
@@ -53,7 +54,7 @@ header {
   margin: 1rem auto;
   width: 75vw;
   max-width: 800px;
-  color: $headerbg;
+  color: $fontcolor;
   text-shadow: $articleshadow 1px 0 10px;
   &:hover {
     text-shadow: rgb(255, 204, 0) 3px 0 10px;
@@ -64,17 +65,29 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   & :nth-child(3) {
-    background-color: $urlcolor;
+    background-color: $accentbg;
+    & a {
+      color: $accenturlcolor;
+      &:visited {
+        color: $accenturlcolor;
+      }
+    }
 
     &:hover {
-      background-color: indianred;
+      background-color: $accentbghover;
       color: white;
     }
   }
   & :nth-child(5) {
-    background-color: $urlcolor;
+    background-color: $accentbg;
+    & a {
+      color: $accenturlcolor;
+      &:visited {
+        color: $accenturlcolor;
+      }
+    }
     &:hover {
-      background-color: indianred;
+      background-color: $accentbghover;
       color: white;
     }
   }
@@ -85,9 +98,19 @@ article {
   flex: 26%;
   height: fill;
   transition: all 250ms;
+  background-color: $articlebg;
+  & a {
+    color: $urlcolor;
+    &:hover {
+      color: $urlcolor;
+    }
+    &:visited {
+      color: $urlcolor;
+    }
+  }
   &:hover {
     transform: scale(1.02);
-    background-color: $bg;
+    background-color: $articlebghover;
   }
 }
 @media (max-width: 540px) {
@@ -103,6 +126,7 @@ h2 {
 }
 footer {
   @include boxppty($footerborder, $footershadow);
+  background-color: $footerbg;
   & a {
     font-size: larger;
     text-decoration: none;

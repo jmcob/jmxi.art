@@ -1,11 +1,26 @@
 // variables de couleur
 $acolor: cornflowerblue;
-$bg: rgb(254, 251, 241);
+$urlcolor: mistyrose;
+$bg: midnightblue;
+$fontcolor: white;
+
+//header colors
 $headerborder: white;
 $headershadow: darkseagreen;
 $headerbg: midnightblue;
+
+//article colors
 $articleborder: cornflowerblue;
-$articleshadow: goldenrod;
-$footerborder: darkgreen;
-$footershadow: darkseagreen;
-$urlcolor: mistyrose;
+$articleshadow: rgb(94, 9, 26);
+$articlebg: navy;
+$articlebghover: midnightblue;
+// accent articles
+$accenturlcolor: mistyrose;
+$accentbg: rgb(82, 0, 140);
+$accentbghover: rgb(174, 1, 35);
+
+$footerborder: rgb(0, 55, 0);
+$footershadow: rgb(77, 104, 77);
+
+$footerbg: navy;
+$accenttext: black;

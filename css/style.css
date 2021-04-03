@@ -14,10 +14,11 @@
 
 * {
   font-family: avenir;
+  color: white;
 }
 
 body {
-  background-color: #fefbf1;
+  background-color: midnightblue;
 }
 
 .wrapper {
@@ -76,8 +77,8 @@ header a:visited {
   margin: 1rem auto;
   width: 75vw;
   max-width: 800px;
-  color: midnightblue;
-  text-shadow: goldenrod 1px 0 10px;
+  color: white;
+  text-shadow: #5e091a 1px 0 10px;
 }
 .subheader:hover {
   text-shadow: #ffcc00 3px 0 10px;
@@ -89,17 +90,29 @@ main {
   flex-wrap: wrap;
 }
 main :nth-child(3) {
-  background-color: mistyrose;
+  background-color: #52008c;
+}
+main :nth-child(3) a {
+  color: mistyrose;
+}
+main :nth-child(3) a:visited {
+  color: mistyrose;
 }
 main :nth-child(3):hover {
-  background-color: indianred;
+  background-color: #ae0123;
   color: white;
 }
 main :nth-child(5) {
-  background-color: mistyrose;
+  background-color: #52008c;
+}
+main :nth-child(5) a {
+  color: mistyrose;
+}
+main :nth-child(5) a:visited {
+  color: mistyrose;
 }
 main :nth-child(5):hover {
-  background-color: indianred;
+  background-color: #ae0123;
   color: white;
 }
 
@@ -109,14 +122,24 @@ article {
   border-radius: 10px;
   background-color: white;
   border: 4px solid cornflowerblue;
-  box-shadow: 4px 4px goldenrod;
+  box-shadow: 4px 4px #5e091a;
   flex: 26%;
   height: fill;
   transition: all 250ms;
+  background-color: navy;
+}
+article a {
+  color: mistyrose;
+}
+article a:hover {
+  color: mistyrose;
+}
+article a:visited {
+  color: mistyrose;
 }
 article:hover {
   transform: scale(1.02);
-  background-color: #fefbf1;
+  background-color: midnightblue;
 }
 
 @media (max-width: 540px) {
@@ -136,8 +159,9 @@ footer {
   padding: 1rem;
   border-radius: 10px;
   background-color: white;
-  border: 4px solid darkgreen;
-  box-shadow: 4px 4px darkseagreen;
+  border: 4px solid #003700;
+  box-shadow: 4px 4px #4d684d;
+  background-color: navy;
 }
 footer a {
   font-size: larger;
