@@ -24,6 +24,13 @@ header {
   @include boxppty($headerborder, $headershadow);
   background-color: $headerbg;
   color: white;
+  transition: all 500ms;
+  &:hover {
+    background-color: lighten($headerbg, 5%);
+    & .fa-dove {
+      transform: scale(1.75) translateX(20px);
+    }
+  }
   & a {
     text-decoration: none;
     color: $urlcolor;
@@ -34,6 +41,10 @@ header {
       color: $urlcolor;
     }
   }
+}
+.fa-dove {
+  transform: translateX(10px);
+  transition: all 500ms;
 }
 .subheader {
   text-align: center;
