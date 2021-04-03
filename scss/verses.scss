@@ -1,6 +1,8 @@
-q {
-  font-style: italic;
-}
-.quote__p {
-  text-align: end;
+.quote {
+  & q {
+    font-style: italic;
+  }
+  &__p {
+    text-align: end;
+  }
 }
