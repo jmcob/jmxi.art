@@ -5,6 +5,10 @@
 body {
   background-color: $bg;
 }
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
 
 a {
   text-decoration: none;
@@ -34,6 +38,7 @@ header {
   font-size: larger;
   margin: 1rem auto;
   width: 75vw;
+  max-width: 800px;
   color: $headerbg;
   text-shadow: $articleshadow 1px 0 10px;
   &:hover {

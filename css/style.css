@@ -20,6 +20,11 @@ body {
   background-color: #fefbf1;
 }
 
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+
 a {
   text-decoration: none;
 }
@@ -55,6 +60,7 @@ header a:visited {
   font-size: larger;
   margin: 1rem auto;
   width: 75vw;
+  max-width: 800px;
   color: midnightblue;
   text-shadow: goldenrod 1px 0 10px;
 }
