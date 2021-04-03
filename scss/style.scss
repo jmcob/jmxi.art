@@ -45,7 +45,7 @@ header {
 }
 .fa-dove {
   transform: translateX(10px);
-  transition: all 1500ms;
+  transition: all $dovetime;
 }
 .subheader {
   text-align: center;
@@ -97,7 +97,7 @@ article {
   @include boxppty($articleborder, $articleshadow);
   flex: 26%;
   height: fill;
-  transition: all 500ms;
+  transition: all $articletransitiontime;
   background-color: $articlebg;
   & a {
     color: $urlcolor;

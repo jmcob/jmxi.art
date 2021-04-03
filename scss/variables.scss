@@ -4,16 +4,18 @@ $urlcolor: mistyrose;
 $bg: midnightblue;
 $fontcolor: white;
 
-//header colors
+//header
 $headerborder: white;
 $headershadow: darkseagreen;
 $headerbg: midnightblue;
+$dovetime: 1500ms;
 
-//article colors
+//article
 $articleborder: cornflowerblue;
 $articleshadow: rgb(94, 9, 26);
 $articlebg: navy;
 $articlebghover: midnightblue;
+$articletransitiontime: 500ms;
 // accent articles
 $accenturlcolor: mistyrose;
 $accentbg: rgb(82, 0, 140);
