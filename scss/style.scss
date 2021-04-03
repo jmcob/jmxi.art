@@ -28,6 +28,13 @@ header {
     }
   }
 }
+.subheader {
+  text-align: center;
+  font-size: larger;
+  margin: 1rem auto;
+  width: 50vw;
+  color: $headerbg;
+}
 main {
   display: flex;
   flex-direction: row;
@@ -48,6 +55,7 @@ main {
     }
   }
 }
+
 article {
   @include boxppty($articleborder, $articleshadow);
   flex: 35%;

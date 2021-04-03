@@ -49,6 +49,14 @@ header a:visited {
   color: mistyrose;
 }
 
+.subheader {
+  text-align: center;
+  font-size: larger;
+  margin: 1rem auto;
+  width: 50vw;
+  color: midnightblue;
+}
+
 main {
   display: flex;
   flex-direction: row;
