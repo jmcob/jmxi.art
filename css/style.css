@@ -58,6 +58,9 @@ header a:visited {
   color: midnightblue;
   text-shadow: goldenrod 1px 0 10px;
 }
+.subheader:hover {
+  text-shadow: #ffcc00 3px 0 10px;
+}
 
 main {
   display: flex;

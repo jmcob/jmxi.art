@@ -36,6 +36,9 @@ header {
   width: 75vw;
   color: $headerbg;
   text-shadow: $articleshadow 1px 0 10px;
+  &:hover {
+    text-shadow: rgb(255, 204, 0) 3px 0 10px;
+  }
 }
 main {
   display: flex;
