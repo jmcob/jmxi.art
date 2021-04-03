@@ -97,7 +97,7 @@ article {
   @include boxppty($articleborder, $articleshadow);
   flex: 26%;
   height: fill;
-  transition: all 250ms;
+  transition: all 500ms;
   background-color: $articlebg;
   & a {
     color: $urlcolor;
