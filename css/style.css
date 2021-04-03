@@ -17,7 +17,7 @@
 }
 
 body {
-  background-color: cornsilk;
+  background-color: #fefbf1;
 }
 
 a {
@@ -82,7 +82,7 @@ article {
 }
 article:hover {
   transform: scale(1.02);
-  background-color: cornsilk;
+  background-color: #fefbf1;
 }
 
 h2 {
