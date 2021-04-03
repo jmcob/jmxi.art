@@ -1,3 +1,11 @@
+q {
+  font-style: italic;
+}
+
+.quote__p {
+  text-align: end;
+}
+
 * {
   font-family: avenir;
 }
