@@ -6,7 +6,7 @@ body {
   background-color: $bg;
 }
 .wrapper {
-  width: 1024px;
+  max-width: 1024px;
   margin: 0 auto;
 }
 
@@ -27,6 +27,9 @@ header {
   & a {
     text-decoration: none;
     color: $urlcolor;
+    &:hover {
+      color: indianred;
+    }
     &:visited {
       color: $urlcolor;
     }
