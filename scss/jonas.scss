@@ -1,0 +1,26 @@
+.jonas__img {
+  background-color: $imgbg;
+  border-radius: 10px 10px;
+  align-content: center;
+  max-width: 500px;
+  margin: 0 auto;
+  & img {
+    max-width: 500px;
+    object-fit: cover;
+  }
+}
+main {
+  flex-direction: column;
+  & :nth-child(3) {
+    background-color: $bg;
+    &:hover {
+      background-color: $bg;
+    }
+  }
+  & :nth-child(5) {
+    background-color: $bg;
+    &:hover {
+      background-color: $bg;
+    }
+  }
+}

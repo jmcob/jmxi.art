@@ -125,7 +125,7 @@ article {
   box-shadow: 4px 4px #5e091a;
   flex: 26%;
   height: fill;
-  transition: all 250ms;
+  transition: all 500ms;
   background-color: navy;
 }
 article a {
@@ -166,6 +166,34 @@ footer {
 footer a {
   font-size: larger;
   text-decoration: none;
+}
+
+.jonas__img {
+  background-color: cornsilk;
+  border-radius: 10px 10px;
+  align-content: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.jonas__img img {
+  max-width: 500px;
+  object-fit: cover;
+}
+
+main {
+  flex-direction: column;
+}
+main :nth-child(3) {
+  background-color: midnightblue;
+}
+main :nth-child(3):hover {
+  background-color: midnightblue;
+}
+main :nth-child(5) {
+  background-color: midnightblue;
+}
+main :nth-child(5):hover {
+  background-color: midnightblue;
 }
 
 /*# sourceMappingURL=style.css.map */
