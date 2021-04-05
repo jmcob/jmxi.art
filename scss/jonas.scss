@@ -9,7 +9,7 @@
     object-fit: cover;
   }
 }
-main {
+.chapters {
   flex-direction: column;
   & :nth-child(3) {
     background-color: $bg;

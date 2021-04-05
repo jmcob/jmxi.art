@@ -180,19 +180,19 @@ footer a {
   object-fit: cover;
 }
 
-main {
+.chapters {
   flex-direction: column;
 }
-main :nth-child(3) {
+.chapters :nth-child(3) {
   background-color: midnightblue;
 }
-main :nth-child(3):hover {
+.chapters :nth-child(3):hover {
   background-color: midnightblue;
 }
-main :nth-child(5) {
+.chapters :nth-child(5) {
   background-color: midnightblue;
 }
-main :nth-child(5):hover {
+.chapters :nth-child(5):hover {
   background-color: midnightblue;
 }
 
