@@ -1,4 +1,5 @@
 @import "mixins", "variables", "verses";
+@import "jonas";
 * {
   font-family: avenir;
   color: $fontcolor;
@@ -14,6 +15,15 @@ body {
     "header header header" 140px
     "main main main" auto
     "footer footer footer" 60px;
+}
+@media screen and (max-width: 375px) {
+  body {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template:
+      "header header header" 280px
+      "main main main" auto
+      "footer footer footer" 60px;
+  }
 }
 .wrapper {
   max-width: 1024px;
@@ -70,6 +80,14 @@ a {
     &:hover {
       text-shadow: rgb(255, 204, 0) 3px 0 10px;
     }
+  }
+}
+@media screen and (max-width: 400px) {
+  .header {
+    flex-direction: column;
+  }
+  h1 {
+    text-align: center;
   }
 }
 .fa-dove {
@@ -163,4 +181,3 @@ h2 {
     margin: 0;
   }
 }
-@import "jonas";
