@@ -16,7 +16,7 @@ body {
     "main main main" auto
     "footer footer footer" 60px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template:
