@@ -11,7 +11,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   grid-gap: 1rem;
   grid-template:
-    "header header header" 120px
+    "header header header" 140px
     "main main main" auto
     "footer footer footer" 60px;
 }
