@@ -76,7 +76,7 @@ header {
 main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  grid-template-rows: (1fr 1fr 1fr);
+  grid-template-rows: repeat(1fr);
   grid-gap: 1rem;
   & :nth-child(5) {
     background-color: $accentbg;
