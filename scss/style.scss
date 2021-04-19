@@ -4,14 +4,16 @@
   color: $fontcolor;
 }
 body {
+  max-width: 1024px;
+  margin: 0 auto;
   background-color: $bg;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  grid-auto-rows: 60px auto 90px;
-  grid-template-areas:
-    "header header header"
-    "main main main"
-    "footer footer footer";
+  grid-gap: 1rem;
+  grid-template:
+    "header header header" 120px
+    "main main main" auto
+    "footer footer footer" 60px;
 }
 .wrapper {
   max-width: 1024px;
@@ -28,14 +30,17 @@ a {
     color: $headerbg;
   }
 }
+
 .header {
   grid-area: header;
-}
-header {
   @include boxppty($headerborder, $headershadow);
   background-color: $headerbg;
   color: white;
+  margin-top: 1rem;
   transition: all 500ms;
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
   &:hover {
     background-color: lighten($headerbg, 5%);
     & .fa-dove {
@@ -52,28 +57,27 @@ header {
       color: $urlcolor;
     }
   }
+  &__sub {
+    white-space: normal;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    margin: 1rem auto;
+    width: 75vw;
+    max-width: 800px;
+    color: $fontcolor;
+    text-shadow: $articleshadow 1px 0 10px;
+    &:hover {
+      text-shadow: rgb(255, 204, 0) 3px 0 10px;
+    }
+  }
 }
 .fa-dove {
   transform: translateX(10px);
   transition: all $dovetime;
 }
-.subheader {
-  text-align: center;
-  font-style: italic;
-  font-size: larger;
-  margin: 1rem auto;
-  width: 75vw;
-  max-width: 800px;
-  color: $fontcolor;
-  text-shadow: $articleshadow 1px 0 10px;
-  &:hover {
-    text-shadow: rgb(255, 204, 0) 3px 0 10px;
-  }
-}
 .main {
   grid-area: main;
-}
-main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   grid-template-rows: repeat(1fr);
@@ -140,26 +144,23 @@ article {
     background-color: $articlebghover;
   }
 }
-@media (max-width: 540px) {
-  main {
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
-}
+
 h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .footer {
   grid-area: footer;
-}
-footer {
   @include boxppty($footerborder, $footershadow);
   background-color: $footerbg;
   & a {
     font-size: larger;
     text-decoration: none;
+  }
+  & p {
+    margin: 0;
   }
 }
 @import "jonas";
