@@ -59,8 +59,8 @@ body {
 
 @media screen and (max-width: 400px) {
   body {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-template: "header header header" 280px "main main main" auto "footer footer footer" 60px;
+    grid-template-columns: 1fr;
+    grid-template: "header" 280px "main" auto "footer" 60px;
   }
 }
 .wrapper {
