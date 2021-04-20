@@ -16,7 +16,7 @@ body {
     "main main main" auto
     "footer footer footer" 60px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   body {
     grid-template-columns: 1fr;
     grid-template:
@@ -29,9 +29,9 @@ body {
   body {
     grid-template-columns: 1fr 1fr;
     grid-template:
-      "header" 200px
-      "main" auto
-      "footer" 60px;
+      "header header" 200px
+      "main main" auto
+      "footer footer" 60px;
   }
 }
 .wrapper {
