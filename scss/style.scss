@@ -16,7 +16,7 @@ body {
     "main main main" auto
     "footer footer footer" 60px;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: $break2) {
   body {
     grid-template-columns: 1fr;
     grid-template:
@@ -25,15 +25,11 @@ body {
       "footer" 60px;
   }
 }
-@media screen and (min-width: $break1) and (max-width: $break2) {
-  body {
-    grid-template-columns: 1fr 1fr;
-    grid-template:
-      "header header" 200px
-      "main main" auto
-      "footer footer" 60px;
-  }
-}
+// @media screen and (min-width: $break1) and (max-width: $break2) {
+//   body {
+//     grid-template-columns: 200px auto 60px;
+//   }
+// }
 .wrapper {
   max-width: 1024px;
   margin: 0 auto;
@@ -91,7 +87,7 @@ a {
     }
   }
 }
-@media screen and (max-width: $break1) {
+@media screen and (max-width: $break2) {
   .header {
     flex-direction: column;
   }

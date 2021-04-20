@@ -57,16 +57,10 @@ body {
   grid-template: "header header header" 140px "main main main" auto "footer footer footer" 60px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
   body {
     grid-template-columns: 1fr;
     grid-template: "header" 280px "main" auto "footer" 60px;
-  }
-}
-@media screen and (min-width: 450px) and (max-width: 768px) {
-  body {
-    grid-template-columns: 1fr 1fr;
-    grid-template: "header header" 200px "main main" auto "footer footer" 60px;
   }
 }
 .wrapper {
@@ -131,7 +125,7 @@ a:visited {
   text-shadow: #ffcc00 3px 0 10px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
   .header {
     flex-direction: column;
   }
