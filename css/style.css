@@ -2,11 +2,11 @@
   background-color: cornsilk;
   border-radius: 10px 10px;
   align-content: center;
-  max-width: 500px;
+  max-width: 90vw;
   margin: 0 auto;
 }
 .jonas__img img {
-  max-width: 500px;
+  max-width: 90vw;
   object-fit: cover;
 }
 
