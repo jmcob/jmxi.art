@@ -31,7 +31,7 @@ a {
   text-decoration: none;
   &:hover {
     transform: scale(1.05);
-    color: white;
+    color: $ahover;
   }
   &:visited {
     color: white;

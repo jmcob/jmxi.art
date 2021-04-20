@@ -54,7 +54,7 @@ a {
 }
 a:hover {
   transform: scale(1.05);
-  color: white;
+  color: mistyrose;
 }
 a:visited {
   color: white;
