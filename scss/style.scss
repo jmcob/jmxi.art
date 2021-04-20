@@ -25,6 +25,15 @@ body {
       "footer" 60px;
   }
 }
+@media screen and (max-width: 768px) {
+  body {
+    grid-template-columns: 1fr 1fr;
+    grid-template:
+      "header" 240px
+      "main" auto
+      "footer" 60px;
+  }
+}
 .wrapper {
   max-width: 1024px;
   margin: 0 auto;
