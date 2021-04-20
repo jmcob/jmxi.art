@@ -1,17 +1,3 @@
-.quote {
-  border-left: 4px solid #1b3022;
-  padding-left: 1rem;
-}
-.quote:hover {
-  border-left: 4px solid white;
-}
-.quote q {
-  font-style: italic;
-}
-.quote__p {
-  text-align: end;
-}
-
 .jonas__img {
   background-color: cornsilk;
   border-radius: 10px 10px;
@@ -63,11 +49,6 @@ body {
     grid-template: "header" 280px "main" auto "footer" 60px;
   }
 }
-.wrapper {
-  max-width: 1024px;
-  margin: 0 auto;
-}
-
 a {
   text-decoration: none;
 }
@@ -232,6 +213,37 @@ h2 {
 }
 .footer p {
   margin: 0;
+}
+
+.quote {
+  border-left: 4px solid #1b3022;
+  padding-left: 1rem;
+}
+.quote:hover {
+  border-left: 4px solid white;
+}
+.quote q {
+  font-style: italic;
+}
+.quote__p {
+  text-align: end;
+}
+
+.verses {
+  display: flex;
+  flex-direction: column;
+}
+.verses :nth-child(3) {
+  background-color: #1b3022 !important;
+}
+.verses :nth-child(3):hover {
+  background-color: #1b3022;
+}
+.verses :nth-child(5) {
+  background-color: #1b3022;
+}
+.verses :nth-child(5):hover {
+  background-color: #1b3022;
 }
 
 /*# sourceMappingURL=style.css.map */

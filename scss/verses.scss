@@ -11,3 +11,19 @@
     text-align: end;
   }
 }
+.verses {
+  display: flex;
+  flex-direction: column;
+  & :nth-child(3) {
+    background-color: $bg !important;
+    &:hover {
+      background-color: $bg;
+    }
+  }
+  & :nth-child(5) {
+    background-color: $bg;
+    &:hover {
+      background-color: $bg;
+    }
+  }
+}

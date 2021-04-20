@@ -1,4 +1,4 @@
-@import "mixins", "variables", "verses";
+@import "mixins", "variables";
 @import "jonas";
 * {
   font-family: avenir;
@@ -24,15 +24,6 @@ body {
       "main" auto
       "footer" 60px;
   }
-}
-// @media screen and (min-width: $break1) and (max-width: $break2) {
-//   body {
-//     grid-template-columns: 200px auto 60px;
-//   }
-// }
-.wrapper {
-  max-width: 1024px;
-  margin: 0 auto;
 }
 
 a {
@@ -186,3 +177,4 @@ h2 {
     margin: 0;
   }
 }
+@import "verses";
