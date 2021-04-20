@@ -46,7 +46,7 @@ body {
 @media screen and (max-width: 768px) {
   body {
     grid-template-columns: 1fr;
-    grid-template: "header" 280px "nav" auto "main" auto "footer" 60px;
+    grid-template: "header" 280px "nav" 180px "main" auto "footer" 60px;
   }
 }
 a {
@@ -132,8 +132,8 @@ a:visited {
 
 @media screen and (max-width: 768px) {
   .nav ul {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 .main {

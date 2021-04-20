@@ -21,7 +21,7 @@ body {
     grid-template-columns: 1fr;
     grid-template:
       "header" 280px
-      "nav" auto
+      "nav" 180px
       "main" auto
       "footer" 60px;
   }
@@ -104,8 +104,8 @@ a {
 @media screen and (max-width: $break2) {
   .nav {
     & ul {
-      display: flex;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
     }
   }
 }
