@@ -66,7 +66,7 @@ body {
 @media screen and (max-width: 768px) {
   body {
     grid-template-columns: 1fr 1fr;
-    grid-template: "header" 240px "main" auto "footer" 60px;
+    grid-template: "header" 200px "main" auto "footer" 60px;
   }
 }
 .wrapper {
