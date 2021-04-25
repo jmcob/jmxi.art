@@ -37,6 +37,7 @@ body {
   max-width: 1024px;
   margin: 0 auto;
   background-color: #1b3022;
+  height: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   grid-gap: 1rem;

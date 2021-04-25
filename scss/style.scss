@@ -8,6 +8,7 @@ body {
   max-width: 1024px;
   margin: 0 auto;
   background-color: $bg;
+  height: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   grid-gap: 1rem;
