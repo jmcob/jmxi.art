@@ -2,7 +2,7 @@
   <nav>
     <router-link to="/">Page d'accueil</router-link> |
     <a href="http://www.jmax.dev">jmax.dev</a> |
-    <a href="http://cross.jmxi.art/">Croix</a> |
+    <router-link to="/cross">Croix</router-link> |
 
     <a href="http://paint.jmxi.art/">Peinture</a> |
 
