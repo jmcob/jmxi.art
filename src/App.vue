@@ -4,7 +4,6 @@
     <a href="http://www.jmax.dev">jmax.dev</a> |
     <a href="http://cross.jmxi.art/">Croix</a> |
 
-    <a href="http://love.jmxi.art/">Aimer</a> |
     <a href="http://paint.jmxi.art/">Peinture</a> |
 
     <router-link to="/about">About</router-link>
