@@ -2,10 +2,15 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2>Vraiment soyez les bienvenus ... !</h2>
-    <p>
-      Ce petit site sert à extérioriser un peu mes créations. Si quelque chose
-      vous plait,
-      <a href="mailto:ola@jmax.dev">n'hésitez pas à me contacter !</a>
+    <q
+      >Qu'êtes-vous allés voir au désert ? Un roseau agité par le vent ? Mais
+      qu'êtes-vous allés voir ? Un homme habillé de tenues élégantes ?</q
+    >
+    <p class="end">Matthieu 11,8</p>
+    <p class="strong">
+      Ce petit site sert à extérioriser certaines de mes créations. Si quelque
+      chose vous plait,
+      <a href="mailto:ola@jmax.dev">contactez-moi !</a>
     </p>
   </div>
 </template>
@@ -33,6 +38,15 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: midnightblue;
+}
+q {
+  font-style: italic;
+}
+.end {
+  text-align: end;
+}
+.strong {
+  font-weight: bold;
 }
 </style>
