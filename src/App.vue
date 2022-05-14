@@ -1,6 +1,9 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
+    <router-link to="/">Page d'accueil</router-link> |
+    <a href="http://cross.jmxi.art/">Croix</a> |
+    <a href="http://love.jmxi.art/">Aimer</a> |
+    <a href="http://paint.jmxi.art/">Peinture</a> |
     <router-link to="/about">About</router-link>
   </nav>
   <router-view />

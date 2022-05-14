@@ -1,5 +1,6 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>Coded by Jean-Maxime Cobac</h1>
+    <p>in May 2022</p>
   </div>
 </template>
