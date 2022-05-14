@@ -1,9 +1,12 @@
 <template>
   <nav>
     <router-link to="/">Page d'accueil</router-link> |
+    <a href="http://www.jmax.dev">jmax.dev</a> |
     <a href="http://cross.jmxi.art/">Croix</a> |
+
     <a href="http://love.jmxi.art/">Aimer</a> |
     <a href="http://paint.jmxi.art/">Peinture</a> |
+
     <router-link to="/about">About</router-link>
   </nav>
   <router-view />
@@ -17,7 +20,9 @@
   text-align: center;
   color: #2c3e50;
 }
-
+img {
+  border-radius: 10px;
+}
 nav {
   padding: 30px;
 }
@@ -28,6 +33,9 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: midnightblue;
+}
+h2 {
+  color: midnightblue;
 }
 </style>
