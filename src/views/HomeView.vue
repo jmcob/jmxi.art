@@ -16,3 +16,10 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+img {
+  width: 275px;
+  max-width: 65vw;
+}
+</style>
