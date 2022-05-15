@@ -165,5 +165,6 @@
 <style>
 img {
   width: 80vw;
+  max-width: 600px;
 }
 </style>
