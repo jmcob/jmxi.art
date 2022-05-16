@@ -1,10 +1,12 @@
 <template>
   <nav>
     <router-link to="/">Page d'accueil</router-link> |
-    <a href="http://www.jmax.dev">jmax.dev</a> |
+
     <router-link to="/cross">Croix</router-link> |
 
     <a href="http://paint.jmxi.art/">Peinture</a> |
+
+    <a href="http://www.jmax.dev">jmax.dev</a> |
 
     <router-link to="/about">About</router-link>
   </nav>
