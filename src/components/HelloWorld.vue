@@ -3,8 +3,10 @@
     <h1>{{ msg }}</h1>
     <h2>Vraiment soyez les bienvenus ... !</h2>
     <q
-      >Qu'êtes-vous allés voir au désert ? Un roseau agité par le vent ? Mais
-      qu'êtes-vous allés voir ? Un homme habillé de tenues élégantes ?</q
+      >Qu'êtes-vous allés voir au désert ? <br />
+      Un roseau agité par le vent ? <br />
+      Mais qu'êtes-vous allés voir ? <br />
+      Un homme habillé de tenues élégantes ?</q
     >
     <p class="quote">Matthieu 11,8</p>
     <p class="strong">
