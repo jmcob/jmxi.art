@@ -6,10 +6,11 @@
       >Qu'êtes-vous allés voir au désert ? Un roseau agité par le vent ? Mais
       qu'êtes-vous allés voir ? Un homme habillé de tenues élégantes ?</q
     >
-    <p class="end">Matthieu 11,8</p>
+    <p class="quote">Matthieu 11,8</p>
     <p class="strong">
-      Ce petit site sert à extérioriser certaines de mes créations. Si quelque
-      chose vous plait,
+      Ce petit site sert à extérioriser certaines de mes créations.
+      <br />
+      Si quelque chose vous plait,
       <a href="mailto:ola@jmax.dev">contactez-moi !</a>
     </p>
   </div>
@@ -43,8 +44,8 @@ a {
 q {
   font-style: italic;
 }
-.end {
-  text-align: end;
+.quote {
+  text-align: center;
 }
 .strong {
   font-weight: bold;

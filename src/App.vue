@@ -3,8 +3,7 @@
     <router-link to="/">Page d'accueil</router-link> |
 
     <router-link to="/cross">Croix</router-link> |
-
-    <a href="http://paint.jmxi.art/">Peinture</a> |
+    <router-link to="/paint">Peintures</router-link> |
 
     <a href="http://www.jmax.dev">jmax.dev</a> |
 
