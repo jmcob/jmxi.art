@@ -4,12 +4,18 @@
 
     <router-link to="/cross">Croix</router-link> |
     <router-link to="/paint">Peintures</router-link> |
-
-    <a href="http://www.jmax.dev">jmax.dev</a> |
-
+    <router-link to="/testimony">Testimony</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
   <router-view />
+  <nav>
+    <router-link to="/">Page d'accueil</router-link> |
+
+    <router-link to="/cross">Croix</router-link> |
+    <router-link to="/paint">Peintures</router-link> |
+    <router-link to="/testimony">Testimony</router-link> |
+    <router-link to="/about">About</router-link>
+  </nav>
 </template>
 
 <style>
@@ -19,6 +25,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  font-size: x-large;
 }
 img {
   border-radius: 10px;
