@@ -1,4 +1,5 @@
 <template>
+  <NavBar />
   <h1 id="temoignage-baptis-s-4-06-22">Témoignage aux baptisés 4/06/22</h1>
   <p>
     <em
@@ -96,7 +97,17 @@
     le service des uns et même parfois la participation a leur salut, pour
     grandir devant Dieu en sagesse et en force.
   </p>
+  <NavBar />
 </template>
+<script>
+import NavBar from "@/components/NavBar.vue";
+export default {
+  name: "TestimonyView",
+  components: {
+    NavBar,
+  },
+};
+</script>
 <style scoped>
 img {
   width: 80vw;

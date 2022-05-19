@@ -1,4 +1,5 @@
 <template>
+  <NavBar />
   <h1>La croix glorieuse</h1>
   <h2>de notre Seigneur Jésus le Christ</h2>
   <h3>en quelques représentations colorées</h3>
@@ -160,8 +161,17 @@
       </figure>
     </div>
   </article>
+  <NavBar />
 </template>
-
+<script>
+import NavBar from "@/components/NavBar.vue";
+export default {
+  name: "CrossView",
+  components: {
+    NavBar,
+  },
+};
+</script>
 <style>
 img {
   width: 80vw;

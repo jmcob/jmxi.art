@@ -1,4 +1,5 @@
 <template>
+  <NavBar />
   <h1>Peintures</h1>
   <div class="card">
     <h2>La fleur - 2009</h2>
@@ -42,7 +43,17 @@
       <img src="../assets/paintings/IMG_0061.jpeg" alt="La Reine des Cieux" />
     </figure>
   </div>
+  <NavBar />
 </template>
+<script>
+import NavBar from "@/components/NavBar.vue";
+export default {
+  name: "PaintingView",
+  components: {
+    NavBar,
+  },
+};
+</script>
 <style scoped>
 .card img {
   width: 80vw;

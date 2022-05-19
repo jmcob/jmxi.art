@@ -1,7 +1,6 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>Vraiment soyez les bienvenus ... !</h2>
     <q
       >Qu'êtes-vous allés voir au désert ? <br />
       Un roseau agité par le vent ? <br />
@@ -9,11 +8,14 @@
       Un homme habillé de tenues élégantes ?</q
     >
     <p class="quote">Matthieu 11,8</p>
-    <p class="strong">
+    <p class="p">
       Ce petit site sert à extérioriser certaines de mes créations.
       <br />
-      Si quelque chose vous plait,
-      <a href="mailto:ola@jmax.dev">contactez-moi !</a>
+      <br />
+      <em
+        >Si quelque chose vous plait,
+        <a href="mailto:ola@jmax.dev">contactez-moi !</a></em
+      >
     </p>
   </div>
 </template>
@@ -49,7 +51,7 @@ q {
 .quote {
   text-align: center;
 }
-.strong {
-  font-weight: bold;
+.p {
+  font-size: large;
 }
 </style>
