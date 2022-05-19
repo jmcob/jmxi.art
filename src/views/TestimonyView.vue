@@ -18,9 +18,9 @@
   </p>
   <p>
     J&#39;ai été baptisé adolescent, mais je ne croyais pas en Dieu au moment du
-    baptème, malgré cette demande que j&#39;ai faite l&#39;Eglise. J&#39;ai été
-    confirmé l&#39;année suivante, mais toujours pas de foi a l&#39;horizon. En
-    fait j&#39;attendais que le sacrement apporte la foi...
+    baptème, malgré cette demande que j&#39;ai faite à l&#39;Eglise. J&#39;ai
+    été confirmé l&#39;année suivante, mais toujours pas de foi a l&#39;horizon.
+    En fait j&#39;attendais que le sacrement apporte la foi...
   </p>
   <h2 id="de-la-bible-a-la-charit-">De la bible a la charité</h2>
   <p>
