@@ -7,14 +7,14 @@
       Mais qu'êtes-vous allés voir ? <br />
       Un homme habillé de tenues élégantes ?</q
     >
-    <p class="quote">Matthieu 11,8</p>
+    <p class="quote">Evangile de Jésus Christ selon Matthieu 11,8</p>
     <p class="p">
       Ce petit site sert à extérioriser certaines de mes créations.
       <br />
       <br />
       <em
         >Si quelque chose vous plait,
-        <a href="mailto:ola@jmax.dev">contactez-moi !</a></em
+        <router-link to="/contact">contactez-moi !</router-link></em
       >
     </p>
   </div>
