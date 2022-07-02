@@ -11,7 +11,7 @@
       <figure>
         <img src="../assets/cross/IMG_0038.jpeg" alt="croix glorieuse" />
       </figure>
-      <p>
+      <p class="description">
         Peinte au doigt sur iPad, cette croix dynamique luit dans une nuit
         sombre et semble s'en dégager puissament.
       </p>
@@ -22,7 +22,7 @@
       <figure>
         <img src="../assets/cross/IMG_0026.jpeg" alt="croix glorieuse" />
       </figure>
-      <p>
+      <p class="description">
         Cette crois plus délicate attire l'oeil par ces couleurs plus pastelles
         dans le fond.Sa forme plus originale peut surprendre et s'éloigner du
         message originel de la croix de notre Seigneur.
@@ -36,7 +36,7 @@
       <figure>
         <img src="../assets/cross/IMG_0027.jpeg" alt="croix glorieuse" />
       </figure>
-      <p>
+      <p class="description">
         On sent ici un coucher de soleil sur un monde qui a souffert de la
         chaleur. Cette croix qui à l'origine s'appelait "Metroïd" en référence
         au jeu de Nintendo dégage montre bien puissance et règne sur les
@@ -54,7 +54,7 @@
           alt="croix glorieuse"
         />
       </figure>
-      <p>
+      <p class="description">
         Une croix pixellisée par un logiciel, d'abord déssinée à la main. Le
         contraste ne fait que faire ressortir cette forme élancée
       </p>
@@ -75,7 +75,6 @@
       <figure>
         <img src="../assets/cross/IMG_0001.jpeg" alt="croix glorieuse" />
       </figure>
-      <p>Distingue t'on ici encore une croix ?</p>
     </div>
   </article>
   <hr />
@@ -85,6 +84,7 @@
       <figure>
         <img src="../assets/cross/IMG_0005.jpeg" alt="croix glorieuse" />
       </figure>
+      <p class="description">Distingue t'on ici encore une croix ?</p>
     </div>
     <hr />
     <div class="card">
@@ -92,7 +92,9 @@
       <figure>
         <img src="../assets/cross/IMG_0017.jpeg" alt="croix glorieuse" />
       </figure>
-      <p>Sur le tableau de contact de la chapelle d'adoration, à Bordeaux</p>
+      <p class="description">
+        Sur le tableau de contact de la chapelle d'adoration, à Bordeaux
+      </p>
     </div>
     <hr />
     <div class="card">
@@ -100,7 +102,7 @@
       <figure>
         <img src="../assets/cross/IMG_0019.png" alt="croix glorieuse" />
       </figure>
-      <p>Page de garde d'"Amour".</p>
+      <p class="description">Page de garde d'"Amour".</p>
     </div>
   </article>
   <hr />
@@ -110,7 +112,9 @@
       <figure>
         <img src="../assets/cross/IMG_0028.jpeg" alt="croix glorieuse" />
       </figure>
-      <p>Une impression de terre battue, une légèreté, une joie.</p>
+      <p class="description">
+        Une impression de terre battue, une légèreté, une joie.
+      </p>
     </div>
     <hr />
     <div class="card">
@@ -125,7 +129,9 @@
       <figure>
         <img src="../assets/cross/IMG_0051.png" alt="croix glorieuse" />
       </figure>
-      <p>Jésus est aussi la pour sauver nos côtés tordus.</p>
+      <p class="description">
+        Jésus est aussi la pour sauver nos côtés tordus.
+      </p>
     </div>
   </article>
   <hr />
@@ -198,5 +204,16 @@ export default {
 img {
   width: 80vw;
   max-width: 600px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.description {
+  border-left: 1px solid white;
+  width: 50%;
+  max-width: 450px;
+  padding-left: 20px;
 }
 </style>
