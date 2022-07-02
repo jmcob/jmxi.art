@@ -3,12 +3,16 @@
 </template>
 
 <style>
+* {
+  background: #082139;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #fff;
 }
 nav {
   font-size: x-large;
@@ -22,34 +26,30 @@ nav {
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: white;
 }
 
 nav a.router-link-exact-active {
-  color: rgb(17, 17, 181);
+  color: rgb(42, 42, 255);
 }
 h2 {
-  color: rgb(17, 17, 181);
+  color: rgb(31, 31, 255);
 }
 .hello {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+a {
+  color: rgb(105, 132, 255);
+}
+a:visited {
+  color: rgb(190, 202, 255);
+}
 .cadre {
-  /* background: rgb(10, 145, 255);
-  background: linear-gradient(
-    318deg,
-    rgba(10, 145, 255, 1) 0%,
-    rgba(90, 181, 255, 1) 3%,
-    rgba(152, 209, 255, 1) 7%,
-    rgba(218, 238, 255, 1) 89%,
-    rgba(255, 255, 255, 1) 100%
-  ); */
   border-radius: 15px;
   max-width: 550px;
   padding: 0 45px 15px 45px;
-  /* box-shadow: 1px 1px midnightblue; */
   border: 1px solid rgb(0, 193, 0);
   margin-top: 20px;
   display: flex;
