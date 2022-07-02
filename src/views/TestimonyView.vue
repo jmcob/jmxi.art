@@ -22,7 +22,7 @@
     <div class="cadre">
       <p>Bonjour,</p>
       <p>
-        Je suis Jean-Maxime, j&#39;ai 36ans, je suis sur le chemin de la foi
+        Je suis Jean-Maxime, j&#39;ai 36 ans, je suis sur le chemin de la foi
         depuis une dizaine d&#39;années.
       </p>
       <p>
@@ -114,6 +114,8 @@
       </p>
     </div>
   </div>
+  <br />
+  <br />
   <NavBar />
 </template>
 <script>
