@@ -7,7 +7,7 @@
     <br />
     <strong class="back-home">
       Je vous suggère de vous rendre
-      <router-link to="/">à l'accueil de jmax.dev</router-link></strong
+      <router-link to="/">à l'accueil de jmxi.art</router-link></strong
     ><br />
     ou, au choix, de recomposer un logo pour
     <a href="google.com">Google.</a>

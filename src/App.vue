@@ -50,7 +50,7 @@ h2 {
   max-width: 550px;
   padding: 0 45px 15px 45px;
   /* box-shadow: 1px 1px midnightblue; */
-  border: 1px solid crimson;
+  border: 1px solid rgb(0, 193, 0);
   margin-top: 20px;
   display: flex;
   flex-direction: column;
