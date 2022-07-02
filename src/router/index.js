@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 
 const routes = [
@@ -6,6 +6,15 @@ const routes = [
     path: "/",
     name: "home",
     component: HomeView,
+  },
+  {
+    // path: "*",
+    path: "/:catchAll(.*)",
+    name: "NotFound",
+    component: () => import("../views/NotFoundView"),
+    meta: {
+      requiresAuth: false,
+    },
   },
   {
     path: "/cross",
@@ -55,7 +64,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes,
   scrollBehavior() {
     document.getElementById("app").scrollIntoView({ behavior: "smooth" });

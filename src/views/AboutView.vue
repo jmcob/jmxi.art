@@ -4,15 +4,15 @@
     <h1>Coded by Jean-Maxime Cobac</h1>
     <p>in May 2022.</p>
     <p>
-      <a href="mailto:ola@jmax.dev">contactez-moi !</a>
-      <br />
+      Si vous le souhaitez,
+      <router-link to="/contact">Contactez-moi.</router-link> <br /><br />
       <a href="http://www.jmax.dev"
         >Vous recherchez peut-être un développeur web ?</a
       >
     </p>
     <img alt="about us ipad image" src="../assets/about.png" />
 
-    <p>C'est déja la troisième version de jmxi.art.</p>
+    <p>C'est déja la troisième version de jmxi.art, lancée en mai 2022.</p>
   </div>
 </template>
 
