@@ -1,5 +1,7 @@
 <template>
-  <NavBar />
+  <div class="nav">
+    <NavBar />
+  </div>
   <div class="hello">
     <h1 id="temoignage-baptis-s-4-06-22">
       Témoignage aux baptisés 4 juin 2022
@@ -124,6 +126,13 @@ export default {
 };
 </script>
 <style scoped>
+* {
+  background: #fff;
+  color: black;
+}
+nav {
+  background-color: #082139;
+}
 img {
   width: 80vw;
   max-width: 300px;

@@ -92,7 +92,20 @@ label {
 }
 .cadre {
   padding-bottom: 20px;
+  background-color: gold;
 }
+label,
+p,
+form,
+h1 {
+  background-color: gold;
+  color: black;
+}
+
+input {
+  background-color: #fff;
+}
+
 input[type="text"],
 [type="email"],
 textarea {
@@ -104,6 +117,7 @@ textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  background-color: #fff;
 }
 
 input[type="submit"] {
