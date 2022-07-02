@@ -1,12 +1,14 @@
 <template>
   <NavBar />
+  <hr />
+  <br />
   <div class="about">
     <h1>Coded by Jean-Maxime Cobac</h1>
     <p>
       Si vous le souhaitez,
       <router-link to="/contact">contactez-moi.</router-link> <br /><br />
       <a href="http://www.jmax.dev"
-        >Vous recherchez peut-être un développeur web ?</a
+        >Peut-être recherchez-vous un développeur web ?</a
       >
     </p>
     <img alt="about us ipad image" src="../assets/about.png" />

@@ -1,5 +1,7 @@
 <template>
   <NavBar />
+  <hr />
+  <br />
   <h1>La croix glorieuse</h1>
   <h2>de notre Seigneur Jésus le Christ</h2>
   <h3>en quelques représentations colorées</h3>
@@ -14,6 +16,7 @@
         sombre et semble s'en dégager puissament.
       </p>
     </div>
+    <hr />
     <div class="card">
       <h3>Deuxième</h3>
       <figure>
@@ -27,6 +30,7 @@
         Il n'en est rien, la victoire est bien présente, et la grâce !
       </p>
     </div>
+    <hr />
     <div class="card">
       <h3>Troisième</h3>
       <figure>
@@ -40,6 +44,7 @@
       </p>
     </div>
   </article>
+  <hr />
   <article>
     <div class="card">
       <h3>Quatrième</h3>
@@ -54,6 +59,7 @@
         contraste ne fait que faire ressortir cette forme élancée
       </p>
     </div>
+    <hr />
     <div class="card">
       <h3>Cinquième</h3>
       <figure>
@@ -63,6 +69,7 @@
         />
       </figure>
     </div>
+    <hr />
     <div class="card">
       <h3>Sixième</h3>
       <figure>
@@ -71,6 +78,7 @@
       <p>Distingue t'on ici encore une croix ?</p>
     </div>
   </article>
+  <hr />
   <article>
     <div class="card">
       <h3>Septième</h3>
@@ -78,6 +86,7 @@
         <img src="../assets/cross/IMG_0005.jpeg" alt="croix glorieuse" />
       </figure>
     </div>
+    <hr />
     <div class="card">
       <h3>Huitième</h3>
       <figure>
@@ -85,6 +94,7 @@
       </figure>
       <p>Sur le tableau de contact de la chapelle d'adoration, à Bordeaux</p>
     </div>
+    <hr />
     <div class="card">
       <h3>Neuvième</h3>
       <figure>
@@ -93,6 +103,7 @@
       <p>Page de garde d'"Amour".</p>
     </div>
   </article>
+  <hr />
   <article>
     <div class="card">
       <h3>Dixième</h3>
@@ -101,12 +112,14 @@
       </figure>
       <p>Une impression de terre battue, une légèreté, une joie.</p>
     </div>
+    <hr />
     <div class="card">
       <h3>Onzième</h3>
       <figure>
         <img src="../assets/cross/IMG_0037.png" alt="croix glorieuse" />
       </figure>
     </div>
+    <hr />
     <div class="card">
       <h3>Douzième</h3>
       <figure>
@@ -115,6 +128,7 @@
       <p>Jésus est aussi la pour sauver nos côtés tordus.</p>
     </div>
   </article>
+  <hr />
   <article>
     <div class="card">
       <h3>Treizième</h3>
@@ -122,12 +136,14 @@
         <img src="../assets/cross/IMG_0056.jpeg" alt="croix glorieuse" />
       </figure>
     </div>
+    <hr />
     <div class="card">
       <h3>Quatorzième</h3>
       <figure>
         <img src="../assets/cross/IMG_0067.jpeg" alt="croix glorieuse" />
       </figure>
     </div>
+    <hr />
     <div class="card">
       <h3>Quinzième</h3>
       <figure>
@@ -135,6 +151,7 @@
       </figure>
     </div>
   </article>
+  <hr />
   <article>
     <div class="card">
       <h3>Seizième</h3>
@@ -142,18 +159,21 @@
         <img src="../assets/cross/IMG_0219.jpeg" alt="croix glorieuse" />
       </figure>
     </div>
+    <hr />
     <div class="card">
       <h3>Dix-septième</h3>
       <figure>
         <img src="../assets/cross/IMG_0226.jpeg" alt="croix glorieuse" />
       </figure>
     </div>
+    <hr />
     <div class="card">
       <h3>Dix-huitième</h3>
       <figure>
         <img src="../assets/cross/IMG_0329.jpeg" alt="croix glorieuse" />
       </figure>
     </div>
+    <hr />
     <div class="card">
       <h3>Dix-neuvième</h3>
       <figure>
@@ -161,6 +181,8 @@
       </figure>
     </div>
   </article>
+  <br />
+  <hr />
   <NavBar />
 </template>
 <script>

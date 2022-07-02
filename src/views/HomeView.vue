@@ -1,5 +1,7 @@
 <template>
   <NavBar />
+  <hr />
+  <br /><br />
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to jmxi.art" />

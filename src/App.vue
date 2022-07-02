@@ -3,25 +3,28 @@
 </template>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;500;700&family=Pacifico&display=swap");
+
 * {
   background: #082139;
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Dosis", sans-serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #fff;
 }
-nav {
-  font-size: x-large;
-}
+
 img {
   border-radius: 10px;
 }
 nav {
   padding: 30px;
+  font-size: xx-large;
+  font-family: "Pacifico", cursive;
 }
 
 nav a {
@@ -30,10 +33,14 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: rgb(42, 42, 255);
+  color: rgb(35, 83, 255);
+}
+p,
+q {
+  font-size: large;
 }
 h2 {
-  color: rgb(31, 31, 255);
+  color: rgb(35, 83, 255);
 }
 .hello {
   display: flex;
