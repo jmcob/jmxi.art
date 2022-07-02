@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link>
+    <router-link to="/">jmxi.art</router-link>
     ...
 
     <router-link to="/cross">Croix</router-link>
