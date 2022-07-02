@@ -5,6 +5,10 @@
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;500;700&family=Pacifico&display=swap");
 
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 200, "opsz" 48;
+}
+
 * {
   background: #082139;
 }
