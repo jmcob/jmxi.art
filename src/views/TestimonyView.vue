@@ -113,9 +113,9 @@
         leur salut, pour grandir devant Dieu en sagesse et en force.
       </p>
     </div>
+    <br /><br />
   </div>
-  <br />
-  <br />
+
   <NavBar />
 </template>
 <script>
@@ -134,6 +134,7 @@ export default {
 }
 nav {
   background-color: #082139;
+  color: #fff;
 }
 img {
   width: 80vw;
