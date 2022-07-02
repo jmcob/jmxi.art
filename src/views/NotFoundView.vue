@@ -18,6 +18,7 @@
 <style scoped>
 img {
   width: 50%;
+  max-width: 450px;
 }
 .back-home {
   font-size: larger;
