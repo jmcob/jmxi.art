@@ -15,7 +15,9 @@
     <div class="router">
       <router-link to="/contact">Contact</router-link>
     </div>
-
+    <div class="router">
+      <router-link to="/grospains">Pains de Vie</router-link>
+    </div>
     <div class="router">
       <router-link to="/about">A propos</router-link>
     </div>

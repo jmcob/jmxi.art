@@ -41,7 +41,7 @@ nav a.router-link-exact-active {
 }
 p,
 q {
-  font-size: large;
+  font-size: larger;
 }
 h2 {
   color: rgb(35, 83, 255);

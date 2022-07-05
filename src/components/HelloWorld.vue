@@ -8,11 +8,7 @@
       Un homme habillé de tenues élégantes ?</q
     >
     <p class="quote">Evangile de Jésus Christ selon Matthieu 11,8</p>
-    <h2>
-      <a href="https://www.jmxi.art/148-pains-de-vie.pdf"
-        >Vous cherchez d'autres gros pains de vie ?</a
-      >
-    </h2>
+
     <p class="p">
       Ce petit site sert à extérioriser certaines de mes créations.
       <br />
