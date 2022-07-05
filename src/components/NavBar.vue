@@ -18,6 +18,7 @@
     <div class="router">
       <router-link to="/grospains">Pains de Vie</router-link>
     </div>
+    <div class="router"><a href="https://www.jmax.dev/">Code</a></div>
     <div class="router">
       <router-link to="/about">A propos</router-link>
     </div>
