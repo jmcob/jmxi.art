@@ -4,9 +4,11 @@
     <h1>Gros pains de Vie</h1>
     <div class="cadre">
       <p>
-        Vous trouverez bientôt ici de
-        <strong>gros pains de vie libres de droit</strong>, sélectionnés par
-        notre équipe d'adorateurs du très saint sacrement. <br /><br />
+        Vous trouverez ici de
+        <a href="http://jmxi.art/pains/148-pains-de-vie.pdf"
+          ><strong>gros pains de vie libres de droit</strong></a
+        >, sélectionnés par notre équipe d'adorateurs du très saint sacrement.
+        <br /><br />
 
         <strong>
           Ils sont plus gros, plus nourrissant, pour une meilleure prière avec
