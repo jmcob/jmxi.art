@@ -3,7 +3,7 @@
 </template>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;500;700&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;500;700&family=Ubuntu&display=swap");
 
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 200, "opsz" 48;
@@ -14,8 +14,7 @@
 }
 
 #app {
-  font-family: "Dosis", sans-serif;
-
+  font-family: "Ubuntu", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -28,7 +27,7 @@ img {
 nav {
   padding: 30px;
   font-size: xx-large;
-  font-family: "Pacifico", cursive;
+  font-family: "Dosis", sans-serif;
 }
 
 nav a {

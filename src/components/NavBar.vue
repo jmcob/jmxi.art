@@ -16,10 +16,10 @@
       <router-link to="/contact">Contact</router-link>
     </div>
     <div class="router">
-      <router-link to="/grospains">Pains de Vie</router-link>
+      <a href="https://www.uneparole.love/">Une Parole</a>
     </div>
     <div class="router">
-      <a href="https://www.jmx.blue/">Amour en textes</a>
+      <a href="https://www.jmx.blue/">Amour de Dieu en textes</a>
     </div>
     <div class="router">
       <router-link to="/about">A propos</router-link>
