@@ -13,7 +13,7 @@
       <router-link to="/testimony">Témoignage</router-link>
     </div>
     <div class="router">
-      <router-link to="/contact">Contact</router-link>
+      <a href="http://www.jmax.dev/contact">Contact</a>
     </div>
     <div class="router">
       <a href="https://www.uneparole.love/">Une Parole</a>
