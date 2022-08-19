@@ -13,13 +13,10 @@
       <router-link to="/testimony">Témoignage</router-link>
     </div>
     <div class="router">
-      <a href="http://www.jmax.dev/contact">Contact</a>
-    </div>
-    <div class="router">
       <a href="https://www.uneparole.love/">Une Parole</a>
     </div>
     <div class="router">
-      <a href="https://www.jmx.blue/">Amour de Dieu en textes</a>
+      <a href="https://www.jmx.blue/">Amour de Dieu</a>
     </div>
     <div class="router">
       <router-link to="/about">A propos</router-link>
